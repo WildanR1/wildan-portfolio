@@ -45,6 +45,24 @@ const CertificateOrganism = () => {
             }
           />
         </div>
+        <div data-aos="flip-down" data-aos-delay="600">
+          <CardCertificate
+            title={"JavaScript Dasar"}
+            organizer={"Skilvul"}
+            link={
+              "https://skilvul.com/courses/javascript-dasar/student/cljqv57c0010601pkum80s8jy"
+            }
+          />
+        </div>
+        <div data-aos="flip-down" data-aos-delay="900">
+          <CardCertificate
+            title={"JavaScript Intermediate"}
+            organizer={"Skilvul"}
+            link={
+              "https://skilvul.com/courses/javascript-intermediate/student/cljqv57c0010601pkum80s8jy"
+            }
+          />
+        </div>
       </div>
     </Element>
   );
