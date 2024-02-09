@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.active-scroll-spy {
+  background-color: #009e66;
+  color: white !important;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
