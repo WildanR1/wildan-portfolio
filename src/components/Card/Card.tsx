@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { BiSolidCategoryAlt } from "react-icons/bi";
 
@@ -7,7 +7,7 @@ type CardProps = {
   title: string;
   description: string;
   category: string;
-  img: string;
+  img: StaticImageData;
 };
 
 const Card = ({ link, title, description, category, img }: CardProps) => {

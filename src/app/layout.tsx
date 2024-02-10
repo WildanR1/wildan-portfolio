@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-const inter = Inter({ subsets: ["latin"] });
+const quicksand = Quicksand({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Wildan Rachmadoni | Portfolio",
@@ -21,11 +21,15 @@ export const metadata: Metadata = {
     "wildan",
     "rachmadoni",
     "wildan rachmadoni",
+    "wildan-portfolio",
+    "wildan portfolio",
     "portfolio",
     "react",
     "nextjs",
-    "wildan-portfolio",
-    "wildan portfolio",
+    "Front-End Web Developer",
+    "React Developer",
+    "Universitas Negeri Surabaya",
+    "UNESA",
   ],
   openGraph: {
     type: "website",
@@ -53,7 +57,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={inter.className}>
+      <body className={quicksand.className}>
         <Providers>{children}</Providers>
         <Analytics />
         <SpeedInsights />

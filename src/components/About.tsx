@@ -4,6 +4,7 @@ import { BsDashLg } from "react-icons/bs";
 import { FaGithubSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
+import { MProfilePic } from "@/assets/img/me";
 
 const About = () => {
   return (
@@ -14,10 +15,11 @@ const About = () => {
             <Image
               width={288}
               height={288}
-              src="/img/profile-pic.png"
-              alt="profile"
+              src={MProfilePic}
+              alt="Profile image Wildan Rachmadoni"
               className="rounded-full object-cover object-center border-2 border-primary w-72 h-72 md:w-96 md:h-96 lg:w-full lg:h-full"
               data-aos="zoom-in"
+              priority
             />
           </div>
         </div>
@@ -75,8 +77,8 @@ const About = () => {
               <Link
                 rel="noopener noreferrer"
                 className="group relative inline-flex items-center overflow-hidden border border-primary px-8 py-3 focus:outline-none focus:ring"
-                href="/CV/update_08-02-2024/WILDAN RACHMADONI CV.pdf"
-                download
+                href="https://drive.google.com/uc?export=download&id=1KDTmhopjTY3pfdlGQfHnfruwfJWhAWB0"
+                download="Wildan Rachmadoni CV.pdf"
                 target="_blank"
               >
                 <span className="absolute inset-y-0 left-0 w-[2px] bg-primary transition-all duration-300 ease-out group-hover:w-full group-active:bg-primary"></span>

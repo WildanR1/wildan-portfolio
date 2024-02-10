@@ -5,6 +5,8 @@ import { BsTelephoneFill } from "react-icons/bs";
 import { MdLocationOn } from "react-icons/md";
 import { IoIosPerson, IoMdMail } from "react-icons/io";
 import Link from "next/link";
+import Image from "next/image";
+import { MCoverContact } from "@/assets/img/me";
 
 const Contact = () => {
   return (
@@ -19,8 +21,8 @@ const Contact = () => {
         <AnimateLine />
       </div>
       <div>
-        <img
-          src="/img/cover-contact-w&b.jpg"
+        <Image
+          src={MCoverContact}
           alt="profil2"
           className="object-cover object-center h-[45vh] w-full rounded-md my-3"
           data-aos="zoom-out"

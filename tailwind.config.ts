@@ -15,6 +15,7 @@ const config = {
         supreme: ["Supreme", "sans-serif"],
         consolas: ["Consolas", "sans-serif"],
       },
+      fontDisplay: ["swap"],
       keyframes: {
         scroll: {
           "0%": { transform: "translateX(0)" },

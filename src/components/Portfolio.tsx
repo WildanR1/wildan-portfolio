@@ -1,6 +1,13 @@
 import React from "react";
 import AnimateLine from "./AnimateLine/AnimateLine";
 import Card from "./Card/Card";
+import {
+  PCekula,
+  PMoge,
+  PNotulensi,
+  PSociops,
+  PTaskChrono,
+} from "@/assets/img/portfolio";
 
 const Portfolio = () => {
   return (
@@ -32,7 +39,7 @@ const Portfolio = () => {
         <div data-aos="flip-right">
           <Card
             link={"https://notulensi.widyawicara.com/en-US"}
-            img={"/img/portfolio/notulensi.jpg"}
+            img={PNotulensi}
             title={"Widya Wicara Notulensi"}
             description={
               "Widya Wicara Notulensi is an automatic note-taking application based on artificial intelligence, no longer need to spend time focusing on recording meetings manually"
@@ -43,7 +50,7 @@ const Portfolio = () => {
         <div data-aos="flip-right">
           <Card
             link={"https://sociops-admin.vercel.app/"}
-            img={"/img/portfolio/sociops.jpg"}
+            img={PSociops}
             title={"Sociops"}
             description={
               "Web application for social campaigns that focuses on volunteer programs and fundraising. This application is designed to provide a platform that facilitates users in contributing and getting involved in various social campaign programs."
@@ -54,7 +61,7 @@ const Portfolio = () => {
         <div data-aos="flip-right">
           <Card
             link={"https://task-chrono.vercel.app/"}
-            img={"/img/portfolio/task-chrono.jpg"}
+            img={PTaskChrono}
             title={"Task Chrono"}
             description={
               "Web application designed to assist users in planning and organizing their tasks or work for the upcoming days. This allows for better and more structured scheduling of tasks, making it easier to manage work efficiently"
@@ -67,7 +74,7 @@ const Portfolio = () => {
             link={
               "https://www.figma.com/file/vUfdWLxdXJIoLJJlDJiaoo/MANPRO-DAPAT-A-team-library?type=design&node-id=490%3A1040&mode=design&t=PseHi4azVxliQqkJ-1"
             }
-            img={"/img/portfolio/cekula.png"}
+            img={PCekula}
             title={"Cekula - Smart School"}
             description={
               "Smart School application intended for the Junior High School market. Equipped with several roles including Admin, Students, Teachers, Osis, etc."
@@ -80,7 +87,7 @@ const Portfolio = () => {
             link={
               "https://www.figma.com/file/flPxDl45XYG4U5BsfsDCtq/MOGE-Vehicle-Rental?type=design&node-id=0%3A1&mode=design&t=5g9dNzE6bHSOk6kc-1"
             }
-            img={"/img/portfolio/moge.jpg"}
+            img={PMoge}
             title={"MOGE Premium Rental"}
             description={
               "Website interface design intended for a vehicle rental company, offering premium rental services for both cars and motorcycles."
