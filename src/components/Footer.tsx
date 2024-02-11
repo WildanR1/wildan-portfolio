@@ -12,25 +12,25 @@ const Footer = () => {
     <footer className="flex flex-col justify-center items-center gap-5 p-10 text-primary-foreground dark:text-primary-foreground border-t-primary border-t-2">
       <div className="grid grid-flow-col gap-4">
         <Link
-          href="about"
+          href="/#about"
           className="hover:underline hover:text-primary transition-all duration-200 ease-in"
         >
           About
         </Link>
         <Link
-          href="portfolio"
+          href="/#portfolio"
           className="hover:underline hover:text-primary transition-all duration-200 ease-in"
         >
           Portfolio
         </Link>
         <Link
-          href="certificate"
+          href="/#certificate"
           className="hover:underline hover:text-primary transition-all duration-200 ease-in"
         >
           Certificate
         </Link>
         <Link
-          href="contact"
+          href="/#contact"
           className="hover:underline hover:text-primary transition-all duration-200 ease-in"
         >
           Contact

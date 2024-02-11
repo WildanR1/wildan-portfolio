@@ -36,7 +36,7 @@ const Portfolio = () => {
         wrapped up, while others are still a work in progress.
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-        <div data-aos="flip-right">
+        <div data-aos="zoom-in">
           <Card
             link={"https://notulensi.widyawicara.com/en-US"}
             img={PNotulensi}
@@ -47,7 +47,7 @@ const Portfolio = () => {
             category={"Next.Js - Tailwind CSS - NextUI"}
           />
         </div>
-        <div data-aos="flip-right">
+        <div data-aos="zoom-in">
           <Card
             link={"https://sociops-admin.vercel.app/"}
             img={PSociops}
@@ -58,7 +58,7 @@ const Portfolio = () => {
             category={"Next.Js - Tailwind CSS - Rest API"}
           />
         </div>
-        <div data-aos="flip-right">
+        <div data-aos="zoom-in">
           <Card
             link={"https://task-chrono.vercel.app/"}
             img={PTaskChrono}
@@ -69,7 +69,7 @@ const Portfolio = () => {
             category={"React.JS - Tailwind CSS - GraphQL"}
           />
         </div>
-        <div data-aos="flip-right">
+        <div data-aos="zoom-in">
           <Card
             link={
               "https://www.figma.com/file/vUfdWLxdXJIoLJJlDJiaoo/MANPRO-DAPAT-A-team-library?type=design&node-id=490%3A1040&mode=design&t=PseHi4azVxliQqkJ-1"
@@ -82,7 +82,7 @@ const Portfolio = () => {
             category={"Laravel - Bootstrap"}
           />
         </div>
-        <div data-aos="flip-right">
+        <div data-aos="zoom-in">
           <Card
             link={
               "https://www.figma.com/file/flPxDl45XYG4U5BsfsDCtq/MOGE-Vehicle-Rental?type=design&node-id=0%3A1&mode=design&t=5g9dNzE6bHSOk6kc-1"

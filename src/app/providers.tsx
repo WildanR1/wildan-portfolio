@@ -11,6 +11,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
     AOS.init({
       duration: 800,
       easing: "ease-out",
+      once: true,
     });
   }, []);
   return <NextUIProvider>{children}</NextUIProvider>;
