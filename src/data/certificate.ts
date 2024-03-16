@@ -25,32 +25,38 @@ export const dataCertificate = [
   },
   {
     title: "Belajar Dasar Pemrograman Web",
-    organizer: "IDCamp 2023 x Dicoding Indonesia",
+    organizer: "Dicoding Indonesia",
     link: "https://www.dicoding.com/certificates/JLX124MMJZ72",
     level: "Basic",
   },
   {
     title: "Belajar Dasar Pemrograman JavaScript",
-    organizer: "IDCamp 2023 x Dicoding Indonesia",
+    organizer: "Dicoding Indonesia",
     link: "https://www.dicoding.com/certificates/N9ZOOYWGDZG5",
     level: "Basic",
   },
   {
     title: "Belajar Membuat Front-End Web untuk Pemula",
-    organizer: "IDCamp 2023 x Dicoding Indonesia",
+    organizer: "Dicoding Indonesia",
     link: "https://www.dicoding.com/certificates/1RXY125KQPVM",
     level: "Basic",
   },
   {
     title: "Belajar Membuat Aplikasi Web dengan React",
-    organizer: "IDCamp 2023 x Dicoding Indonesia",
+    organizer: "Dicoding Indonesia",
     link: "https://www.dicoding.com/certificates/0LZ024WO3X65",
     level: "Basic",
   },
   {
     title: "Belajar Fundamental Aplikasi Web dengan React",
-    organizer: "IDCamp 2023 x Dicoding Indonesia",
+    organizer: "Dicoding Indonesia",
     link: "https://www.dicoding.com/certificates/QLZ94VJD9P5D",
+    level: "Intermediate",
+  },
+  {
+    title: "React App Developer",
+    organizer: "IDCamp | Indosat Ooredoo Hutchison",
+    link: "https://drive.google.com/file/d/1rb_TMPqmRdi3CmCEr5Vd1WImo4-JhNoU/view?usp=sharing",
     level: "Intermediate",
   },
 ];

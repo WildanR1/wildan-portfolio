@@ -25,7 +25,7 @@ const About = () => {
         </div>
         <div className="lg:col-span-2 lg:px-12 h-full flex items-center">
           <div className="flex flex-col gap-4">
-            <h6 className="font-bold">
+            <h1 className="font-bold">
               <div
                 className="font-consolas text-2xl text-primary"
                 data-aos="fade-right"
@@ -55,7 +55,7 @@ const About = () => {
                   delaySpeed={2000}
                 />
               </div>
-            </h6>
+            </h1>
             <div>
               <p
                 className="text-justify text-lg"

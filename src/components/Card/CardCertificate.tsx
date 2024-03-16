@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { PiTagSimpleFill } from "react-icons/pi";
 
 type CardCertificateProps = {
@@ -30,11 +31,11 @@ const CardCertificate = ({
           </div>
         </div>
         <div>
-          <a
+          <Link
             className="group relative inline-flex items-center overflow-hidden border border-base-300 px-5 py-1 text-primary-foreground dark:text-primary-foreground focus:outline-none focus:ring active:text-primary-foreground hover:bg-primary hover:border-primary "
             href={link}
             target="_blank"
-            rel="noreferrer"
+            rel="nofollow"
           >
             <span className="absolute -end-full transition-all group-hover:end-4 duration-300 ease-out">
               <svg
@@ -56,7 +57,7 @@ const CardCertificate = ({
             <span className="text-sm font-medium transition-all group-hover:me-4  group-hover:pr-2 group-hover:text-primary-foreground duration-200 ease-out">
               View
             </span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

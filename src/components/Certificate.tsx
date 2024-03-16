@@ -6,12 +6,12 @@ import { dataCertificate } from "@/data/certificate";
 const Certificate = () => {
   return (
     <section id="certificate" className="py-16 px-4 lg:px-28">
-      <div
+      <h2
         className="text-xl md:text-2xl lg:text-3xl font-semibold text-center text-primary"
         data-aos="fade-up"
       >
         Certificate
-      </div>
+      </h2>
       <div
         className="text-2xl md:text-3xl lg:text-5xl font-extrabold text-center py-3"
         data-aos="fade-up"
