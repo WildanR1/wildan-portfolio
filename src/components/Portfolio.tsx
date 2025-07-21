@@ -7,9 +7,61 @@ import {
   PNotulensi,
   PSociops,
   PTaskChrono,
+  PBymayscarf,
 } from "@/assets/img/portfolio";
 
 const Portfolio = () => {
+  const portfolioData = [
+    {
+      link: "https://bymayscarf.shop/",
+      img: PBymayscarf,
+      title: "Bymayscarf",
+      description:
+        "Bymayscarf is an online store website specializing in custom Al-Qur'an products as the main offering. Other products include custom prayer rugs and hampers for Eid or wedding occasions.",
+      category: "Next.Js - Tailwind CSS",
+    },
+    {
+      link: "https://notulensi.widyawicara.com/en-US",
+      img: PNotulensi,
+      title: "Widya Wicara Notulensi",
+      description:
+        "Widya Wicara Notulensi is an automatic note-taking application powered by artificial intelligence, eliminating the need to manually record meetings.",
+      category: "Next.Js - Tailwind CSS - NextUI",
+    },
+    {
+      link: "https://sociops-admin.vercel.app/",
+      img: PSociops,
+      title: "Sociops",
+      description:
+        "A web application for social campaigns focusing on volunteer programs and fundraising. It provides a platform for users to contribute and get involved in various social initiatives.",
+      category: "Next.Js - Tailwind CSS - Rest API",
+    },
+    {
+      link: "https://task-chrono.vercel.app/",
+      img: PTaskChrono,
+      title: "Task Chrono",
+      description:
+        "A web application designed to help users plan and organize their tasks for upcoming days, enabling better and more structured scheduling for efficient work management.",
+      category: "React.JS - Tailwind CSS - GraphQL",
+    },
+    {
+      link: "https://www.figma.com/file/vUfdWLxdXJIoLJJlDJiaoo/MANPRO-DAPAT-A-team-library?type=design&node-id=490%3A1040&mode=design&t=PseHi4azVxliQqkJ-1",
+      img: PCekula,
+      title: "Cekula - Smart School",
+      description:
+        "A Smart School application targeted at Junior High Schools, featuring multiple roles such as Admin, Students, Teachers, and Osis.",
+      category: "Laravel - Bootstrap",
+    },
+    {
+      link: "https://www.figma.com/file/flPxDl45XYG4U5BsfsDCtq/MOGE-Vehicle-Rental?type=design&node-id=0%3A1&mode=design&t=5g9dNzE6bHSOk6kc-1",
+      img: PMoge,
+      title: "MOGE Premium Rental",
+      description:
+        "Website interface design for a vehicle rental company, offering premium rental services for cars and motorcycles.",
+      category: "Figma",
+    },
+  ];
+
   return (
     <section id="portfolio" className="py-16 px-4 lg:px-28">
       <h2
@@ -36,65 +88,17 @@ const Portfolio = () => {
         wrapped up, while others are still a work in progress.
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-        <div data-aos="zoom-in">
-          <Card
-            link={"https://notulensi.widyawicara.com/en-US"}
-            img={PNotulensi}
-            title={"Widya Wicara Notulensi"}
-            description={
-              "Widya Wicara Notulensi is an automatic note-taking application based on artificial intelligence, no longer need to spend time focusing on recording meetings manually"
-            }
-            category={"Next.Js - Tailwind CSS - NextUI"}
-          />
-        </div>
-        <div data-aos="zoom-in">
-          <Card
-            link={"https://sociops-admin.vercel.app/"}
-            img={PSociops}
-            title={"Sociops"}
-            description={
-              "Web application for social campaigns that focuses on volunteer programs and fundraising. This application is designed to provide a platform that facilitates users in contributing and getting involved in various social campaign programs."
-            }
-            category={"Next.Js - Tailwind CSS - Rest API"}
-          />
-        </div>
-        <div data-aos="zoom-in">
-          <Card
-            link={"https://task-chrono.vercel.app/"}
-            img={PTaskChrono}
-            title={"Task Chrono"}
-            description={
-              "Web application designed to assist users in planning and organizing their tasks or work for the upcoming days. This allows for better and more structured scheduling of tasks, making it easier to manage work efficiently"
-            }
-            category={"React.JS - Tailwind CSS - GraphQL"}
-          />
-        </div>
-        <div data-aos="zoom-in">
-          <Card
-            link={
-              "https://www.figma.com/file/vUfdWLxdXJIoLJJlDJiaoo/MANPRO-DAPAT-A-team-library?type=design&node-id=490%3A1040&mode=design&t=PseHi4azVxliQqkJ-1"
-            }
-            img={PCekula}
-            title={"Cekula - Smart School"}
-            description={
-              "Smart School application intended for the Junior High School market. Equipped with several roles including Admin, Students, Teachers, Osis, etc."
-            }
-            category={"Laravel - Bootstrap"}
-          />
-        </div>
-        <div data-aos="zoom-in">
-          <Card
-            link={
-              "https://www.figma.com/file/flPxDl45XYG4U5BsfsDCtq/MOGE-Vehicle-Rental?type=design&node-id=0%3A1&mode=design&t=5g9dNzE6bHSOk6kc-1"
-            }
-            img={PMoge}
-            title={"MOGE Premium Rental"}
-            description={
-              "Website interface design intended for a vehicle rental company, offering premium rental services for both cars and motorcycles."
-            }
-            category={"Figma"}
-          />
-        </div>
+        {portfolioData.map((item, idx) => (
+          <div data-aos="zoom-in" key={item.title + idx}>
+            <Card
+              link={item.link}
+              img={item.img}
+              title={item.title}
+              description={item.description}
+              category={item.category}
+            />
+          </div>
+        ))}
       </div>
     </section>
   );

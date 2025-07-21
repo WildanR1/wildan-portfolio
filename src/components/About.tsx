@@ -77,8 +77,8 @@ const About = () => {
               <Link
                 rel="noopener noreferrer"
                 className="group relative inline-flex items-center overflow-hidden border border-primary px-8 py-3 focus:outline-none focus:ring"
-                href="https://drive.google.com/uc?export=download&id=1rf42b0T5oBc6hkKrMSkf6mzUOF6N0PYA"
-                download="CV Wildan Rachmadoni.pdf"
+                href="/cv/juli-2025/cv-wildan-rachmadoni.pdf"
+                download="Cv Wildan Rachmadoni.pdf"
                 target="_blank"
               >
                 <span className="absolute inset-y-0 left-0 w-[2px] bg-primary transition-all duration-300 ease-out group-hover:w-full group-active:bg-primary"></span>

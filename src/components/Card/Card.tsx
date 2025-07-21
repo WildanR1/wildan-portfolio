@@ -16,7 +16,6 @@ const Card = ({ link, title, description, category, img }: CardProps) => {
       href={link}
       className="group relative block h-64 sm:h-80 lg:h-96"
       target="_blank"
-      rel="noreferrer"
     >
       <span
         className={`absolute inset-0 border-2 border-dashed border-primary`}
